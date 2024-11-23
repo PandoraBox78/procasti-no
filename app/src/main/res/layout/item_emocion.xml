@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tipo de emoción -->
+    <TextView
+        android:id="@+id/textTipoEmocion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feliz"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Nota de la emoción -->
+    <TextView
+        android:id="@+id/textNotaEmocion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoy fue un día maravilloso"
+        android:textSize="14sp"
+        android:paddingTop="4dp" />
+
+    <!-- Fecha de la emoción -->
+    <TextView
+        android:id="@+id/textFechaEmocion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2024-11-23"
+        android:textSize="12sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingTop="2dp" />
+</LinearLayout>

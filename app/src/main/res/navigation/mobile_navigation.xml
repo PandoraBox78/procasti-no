@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_inicio">
+
+    <fragment
+        android:id="@+id/navigation_inicio"
+        android:name="com.example.myapplication.ui.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/navigation_tareas"
+        android:name="com.example.myapplication.ui.TareasFragment"
+        android:label="Tareas"
+        tools:layout="@layout/fragment_tareas" />
+
+    <fragment
+        android:id="@+id/navigation_bienestar"
+        android:name="com.example.myapplication.ui.BienestarFragment"
+        android:label="Bienestar"
+        tools:layout="@layout/fragment_bienestar" />
+
+    <fragment
+        android:id="@+id/navigation_pomodoro"
+        android:name="com.example.myapplication.ui.PomodoroFragment"
+        android:label="Pomodoro"
+        tools:layout="@layout/fragment_pomodoro" />
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.example.myapplication.ui.StatisticsFragment"
+        android:label="Estadísticas"
+        tools:layout="@layout/fragment_statistics" />
+
+</navigation>

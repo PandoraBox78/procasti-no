@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Procasti-No</string>
+    <string-array name="prioridades">
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+    <string name="add_task">Agregar Tarea</string>
+    <string name="edit_task">Editar Tarea</string>
+    <string name="delete_task">Eliminar Tarea</string>
+    <string name="confirm_delete_task">¿Estás seguro de que deseas eliminar esta tarea?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string-array name="emociones">
+        <item>Feliz</item>
+        <item>Triste</item>
+        <item>Estresado</item>
+        <item>Tranquilo</item>
+        <item>Ansioso</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
